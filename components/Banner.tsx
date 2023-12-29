@@ -89,7 +89,7 @@ const Banner = () => {
               <div
                 className='bg-no-repeat bg-cover w-full h-[260px] md:h-[380px] bg-top md:bg-center'
                 style={{
-                  backgroundImage: `url('${banner1}')`
+                  backgroundImage: `url('banner1.png')`
                 }}
               />
             
@@ -99,7 +99,7 @@ const Banner = () => {
               <div
                 className='bg-no-repeat bg-cover w-full h-[260px] md:h-[380px] bg-bottom md:bg-center'
                 style={{
-                  backgroundImage: `url('${banner2}')`
+                  backgroundImage: `url('banner2.png')`
                 }}
               />
             
@@ -109,7 +109,7 @@ const Banner = () => {
               <div
                 className='bg-no-repeat bg-cover w-full h-[260px] md:h-[380px] bg-top md:bg-center'
                 style={{
-                  backgroundImage: `url('${banner3}')`
+                  backgroundImage: `url('banner3.png')`
                 }}
               />
             
@@ -126,14 +126,14 @@ const Banner = () => {
             <p
               className='bg-no-repeat bg-cover w-full h-full bg-center'
               style={{
-                backgroundImage: `url(${banner4})`
+                backgroundImage: `url('banner4.png')`
               }}
             />
     
             <p
               className='bg-no-repeat bg-cover w-full h-full bg-center'
               style={{
-                backgroundImage: `url(${banner5})`
+                backgroundImage: `url('banner5.png')`
               }}
             />
         
@@ -143,21 +143,21 @@ const Banner = () => {
             <p
               className='bg-no-repeat bg-cover w-full h-full'
               style={{
-                backgroundImage: `url(${banner6})`
+                backgroundImage: `url('banner6.png')`
               }}
             />
           
             <p
               className='bg-no-repeat bg-cover w-full h-full'
               style={{
-                backgroundImage: `url(${banner7})`
+                backgroundImage: `url('banner7.png')`
               }}
             />
           
             <p
               className='bg-no-repeat bg-cover w-full h-full'
               style={{
-                backgroundImage: `url(${banner8})`
+                backgroundImage: `url('banner8.png')`
               }}
             />
         </div>
