@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-import { Link } from 'react-router-dom'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import { Autoplay, Pagination } from 'swiper/modules'
