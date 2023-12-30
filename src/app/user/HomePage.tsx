@@ -1,15 +1,17 @@
 import React from 'react'
 import Banner  from '@/components/Banner'
+import CardItem from '@/components/CardItem'
 
-const Home = () => {
+const HomePage = () => {
 
 
     return(
         <>
             <div>
                 <Banner/>
+                
             </div>
         </>
     )
 }
-export default Home;
+export default HomePage;
