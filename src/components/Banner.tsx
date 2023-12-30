@@ -1,9 +1,9 @@
 'use client'
 import Image from 'next/image'
-<<<<<<< HEAD
-=======
-import Link from 'next/link'
->>>>>>> 1dd325b2944ca38db3b45c84546e003632b475dd
+// <<<<<<< HEAD
+// =======
+// import Link from 'next/link'
+// >>>>>>> 1dd325b2944ca38db3b45c84546e003632b475dd
 import 'swiper/css'
 import 'swiper/css/pagination'
 import { Autoplay, Pagination } from 'swiper/modules'
