@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import { Link } from 'react-router-dom'
 import 'swiper/css'
@@ -12,43 +13,43 @@ width={500}
 height={500}
 />       
 const banner2 = <Image 
-src="/banner2.png"
+src="/banner1.png"
 alt='Jujutsu Kaisen - Chú Thuật Hồi Chiến'
 width={500}
 height={500}
 />       
 const banner3 = <Image 
-src="/banner3.png"
+src="/banner1.png"
 alt='Thanh Gươm Diệt Quỷ'
 width={500}
 height={500}
 />       
 const banner4 = <Image 
-src="/banner4.png"
+src="/banner1.png"
 alt='Onepunch Man'
 width={500}
 height={500}
 />       
 const banner5 = <Image 
-src="/banner5.png"
+src="/banner1.png"
 alt='Mashle: Magic And Muscles'
 width={500}
 height={500}
 />       
 const banner6 = <Image 
-src="/banner6.png"
+src="/banner1.png"
 alt='REINCARNATED AS AN ARISTOCRAT WITH AN APPRAISAL SKILL'
 width={500}
 height={500}
 />  
 const banner7 = <Image 
-src="/banner7.png"
+src="/banner1.png"
 alt='Tôi Muốn Nhìn Thấy Dáng Vẻ Xấu Hổ Của Cậu'
 width={500}
 height={500}
 />     
 const banner8 = <Image 
-src="/banner8.png"
+src="/banner1.png"
 alt='Kỹ Năng Vô Dụng [Auto Mode] Bỗng Dưng Thức Tỉnh ~ Hả, Tổ Đội Trinh Sát Mấy Người, Chẳng Phải Đã Nói'
 width={500}
 height={500}
@@ -112,8 +113,7 @@ const Banner = () => {
                   backgroundImage: `url('banner3.png')`
                 }}
               />
-            
-          </SwiperSlide>
+</SwiperSlide>
         </Swiper>
         <div
           id='swiper-banner-pagination'
